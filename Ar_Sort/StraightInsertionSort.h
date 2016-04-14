@@ -12,8 +12,8 @@
 class StraightInsertionSort
 {
 public:
-    StraightInsertionSort();
-    ~StraightInsertionSort();
+    StraightInsertionSort(){};
+    ~StraightInsertionSort(){};
     
     void insertSort(int a[], int n);
 };
