@@ -9,11 +9,17 @@
 #include "StraightInsertionSort.h"
 
 #include <iostream>
+#include "ShellInsertSort.h"
 
 int main(int argc, const char * argv[]) {
     int v[] = {2, 4, 3, 1};
     StraightInsertionSort sot;
-    sot.insertSort(v, 4);
+//    sot.insertSort(v, 4);
+    
+//    sot.iSort(v, 4);
+    
+    ShellInsertSort sSort;
+    sSort.sort(v, 4);
     
     // insert code here...
     std::cout << "Hello, World!\n";

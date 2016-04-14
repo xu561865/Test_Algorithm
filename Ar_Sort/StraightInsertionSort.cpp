@@ -9,12 +9,22 @@
 #include <iostream>
 #include "StraightInsertionSort.h"
 
-void print(int a[], int n ,int i)
+static void print(int a[], int n ,int i)
 {
     std::cout<<i <<":";
     for(int j = 0; j < 8; j++)
     {
         std::cout<<a[j] <<" ";
+    }
+    
+    std::cout<<std::endl;
+}
+
+static void print(int a[], int n)
+{
+    for(int i = 0; i < n; ++i)
+    {
+        std::cout<<a[i]<<" ";
     }
     
     std::cout<<std::endl;
@@ -49,4 +59,26 @@ void StraightInsertionSort::insertSort(int a[], int n)
         
         print(a,n,i);           //打印每趟排序的结果
     }
+}
+
+void StraightInsertionSort::iSort(int a[], int n)
+{
+    for(int i = 1; i < n; ++i)
+    {
+        if(a[i - 1] > a[i])
+        {
+            int guardValue = a[i];
+            
+            int j = i - 1;
+            while (guardValue < a[j])
+            {
+                a[j + 1] = a[j];
+                --j;
+            }
+            
+            a[j + 1] = guardValue;
+        }
+    }
+    
+    print(a, n);
 }

@@ -16,6 +16,8 @@ public:
     ~StraightInsertionSort(){};
     
     void insertSort(int a[], int n);
+    
+    void iSort(int a[], int n);
 };
 
 #endif /* StraightInsertionSort_h */
