@@ -1,5 +1,5 @@
 //
-//  ShellInsertSort.cpp
+//  ShellSort.cpp
 //  Test_Algorithm
 //
 //  Created by xuyi on 4/14/16.
@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "ShellInsertSort.h"
+#include "ShellSort.h"
 
 static void print(int a[], int n ,int i)
 {
@@ -67,7 +67,7 @@ void insertSort(int a[], int n, int dk)
 * 先按增量d（n/2,n为要排序数的个数进行希尔排序
 *
 */
-void ShellInsertSort::sort(int a[], int n)
+void ShellSort::sort(int a[], int n)
 {
     int dk = n/2;
     while( dk >= 1 )

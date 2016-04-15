@@ -9,7 +9,7 @@
 #include "StraightInsertionSort.h"
 
 #include <iostream>
-#include "ShellInsertSort.h"
+#include "ShellSort.h"
 
 int main(int argc, const char * argv[]) {
     int v[] = {2, 4, 3, 1};
@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
     
 //    sot.iSort(v, 4);
     
-    ShellInsertSort sSort;
+    ShellSort sSort;
     sSort.sort(v, 4);
     
     // insert code here...
