@@ -30,6 +30,7 @@
 /* Begin PBXFileReference section */
 		F174C7131CF36129002CA077 /* Sample1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sample1.h; path = Algorithm_Samples/Sample1.h; sourceTree = "<group>"; };
 		F174C7141CF3613D002CA077 /* Sample1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sample1.cpp; path = Algorithm_Samples/Sample1.cpp; sourceTree = "<group>"; };
+		F174C7161CF36CF8002CA077 /* Sample2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sample2.h; sourceTree = "<group>"; };
 		F1834D581CBF4BED00BD3BA2 /* Test_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1834D5B1CBF4BED00BD3BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F1834D631CBF4DE800BD3BA2 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QuickSort.h; path = Ar_Sort/QuickSort.h; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 			children = (
 				F174C7131CF36129002CA077 /* Sample1.h */,
 				F174C7141CF3613D002CA077 /* Sample1.cpp */,
+				F174C7161CF36CF8002CA077 /* Sample2.h */,
 			);
 			name = Algorithm_Samples;
 			sourceTree = "<group>";
