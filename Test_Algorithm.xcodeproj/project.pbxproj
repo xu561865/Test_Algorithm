@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F174C7151CF3613D002CA077 /* Sample1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F174C7141CF3613D002CA077 /* Sample1.cpp */; };
 		F1834D5C1CBF4BED00BD3BA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D5B1CBF4BED00BD3BA2 /* main.cpp */; };
-		F1834D651CBF4E0000BD3BA2 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D641CBF4E0000BD3BA2 /* QuickSort.cpp */; settings = {ASSET_TAGS = (); }; };
-		F1834D681CBF4E7000BD3BA2 /* StraightInsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D671CBF4E7000BD3BA2 /* StraightInsertionSort.cpp */; settings = {ASSET_TAGS = (); }; };
-		F1834D6B1CBF733300BD3BA2 /* ShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D6A1CBF733300BD3BA2 /* ShellSort.cpp */; settings = {ASSET_TAGS = (); }; };
-		F1834D6E1CC091FA00BD3BA2 /* SimpleSelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D6D1CC091FA00BD3BA2 /* SimpleSelectionSort.cpp */; settings = {ASSET_TAGS = (); }; };
+		F1834D651CBF4E0000BD3BA2 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D641CBF4E0000BD3BA2 /* QuickSort.cpp */; };
+		F1834D681CBF4E7000BD3BA2 /* StraightInsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D671CBF4E7000BD3BA2 /* StraightInsertionSort.cpp */; };
+		F1834D6B1CBF733300BD3BA2 /* ShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D6A1CBF733300BD3BA2 /* ShellSort.cpp */; };
+		F1834D6E1CC091FA00BD3BA2 /* SimpleSelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D6D1CC091FA00BD3BA2 /* SimpleSelectionSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F174C7131CF36129002CA077 /* Sample1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sample1.h; path = Algorithm_Samples/Sample1.h; sourceTree = "<group>"; };
+		F174C7141CF3613D002CA077 /* Sample1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sample1.cpp; path = Algorithm_Samples/Sample1.cpp; sourceTree = "<group>"; };
 		F1834D581CBF4BED00BD3BA2 /* Test_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1834D5B1CBF4BED00BD3BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F1834D631CBF4DE800BD3BA2 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QuickSort.h; path = Ar_Sort/QuickSort.h; sourceTree = "<group>"; };
@@ -50,9 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F174C7121CF36100002CA077 /* Algorithm_Samples */ = {
+			isa = PBXGroup;
+			children = (
+				F174C7131CF36129002CA077 /* Sample1.h */,
+				F174C7141CF3613D002CA077 /* Sample1.cpp */,
+			);
+			name = Algorithm_Samples;
+			sourceTree = "<group>";
+		};
 		F1834D4F1CBF4BED00BD3BA2 = {
 			isa = PBXGroup;
 			children = (
+				F174C7121CF36100002CA077 /* Algorithm_Samples */,
 				F1834D621CBF4DC500BD3BA2 /* Ar_Sort */,
 				F1834D5A1CBF4BED00BD3BA2 /* Test_Algorithm */,
 				F1834D591CBF4BED00BD3BA2 /* Products */,
@@ -151,6 +164,7 @@
 				F1834D6B1CBF733300BD3BA2 /* ShellSort.cpp in Sources */,
 				F1834D651CBF4E0000BD3BA2 /* QuickSort.cpp in Sources */,
 				F1834D681CBF4E7000BD3BA2 /* StraightInsertionSort.cpp in Sources */,
+				F174C7151CF3613D002CA077 /* Sample1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
