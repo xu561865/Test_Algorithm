@@ -10,8 +10,11 @@
 
 #include <iostream>
 #include "ShellSort.h"
+#include "Sample1.h"
 
 int main(int argc, const char * argv[]) {
+    
+#if 0
     int v[] = {2, 4, 3, 1};
     StraightInsertionSort sot;
 //    sot.insertSort(v, 4);
@@ -21,7 +24,19 @@ int main(int argc, const char * argv[]) {
     ShellSort sSort;
     sSort.sort(v, 4);
     
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#endif
+    
+    
+    bool ret = find_string("abcdef", "acd");
+    if(ret)
+    {
+        printf("find it\n");
+    }
+    else
+    {
+        printf("not find\n");
+    }
+    
+    
     return 0;
 }
