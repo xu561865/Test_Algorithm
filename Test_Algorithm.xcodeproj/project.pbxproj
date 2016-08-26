@@ -12,6 +12,7 @@
 		F1834D681CBF4E7000BD3BA2 /* StraightInsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D671CBF4E7000BD3BA2 /* StraightInsertionSort.cpp */; settings = {ASSET_TAGS = (); }; };
 		F1834D6B1CBF733300BD3BA2 /* ShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D6A1CBF733300BD3BA2 /* ShellSort.cpp */; settings = {ASSET_TAGS = (); }; };
 		F1834D6E1CC091FA00BD3BA2 /* SimpleSelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D6D1CC091FA00BD3BA2 /* SimpleSelectionSort.cpp */; settings = {ASSET_TAGS = (); }; };
+		F1F386C61D707ABD001DD537 /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1F386C51D707ABD001DD537 /* Solution.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		F1834D6A1CBF733300BD3BA2 /* ShellSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShellSort.cpp; path = Ar_Sort/ShellSort.cpp; sourceTree = "<group>"; };
 		F1834D6C1CC091E200BD3BA2 /* SimpleSelectionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleSelectionSort.h; path = Ar_Sort/SimpleSelectionSort.h; sourceTree = "<group>"; };
 		F1834D6D1CC091FA00BD3BA2 /* SimpleSelectionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleSelectionSort.cpp; path = Ar_Sort/SimpleSelectionSort.cpp; sourceTree = "<group>"; };
+		F1F386C41D707AA7001DD537 /* Solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution.h; sourceTree = "<group>"; };
+		F1F386C51D707ABD001DD537 /* Solution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				F1834D5B1CBF4BED00BD3BA2 /* main.cpp */,
+				F1F386C41D707AA7001DD537 /* Solution.h */,
+				F1F386C51D707ABD001DD537 /* Solution.cpp */,
 			);
 			path = Test_Algorithm;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F386C61D707ABD001DD537 /* Solution.cpp in Sources */,
 				F1834D5C1CBF4BED00BD3BA2 /* main.cpp in Sources */,
 				F1834D6E1CC091FA00BD3BA2 /* SimpleSelectionSort.cpp in Sources */,
 				F1834D6B1CBF733300BD3BA2 /* ShellSort.cpp in Sources */,
