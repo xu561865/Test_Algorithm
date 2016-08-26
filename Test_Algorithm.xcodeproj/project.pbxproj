@@ -14,6 +14,7 @@
 		F1D86FF61D70A38A0091E2F4 /* ShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FEE1D70A38A0091E2F4 /* ShellSort.cpp */; };
 		F1D86FF71D70A38A0091E2F4 /* SimpleSelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FF01D70A38A0091E2F4 /* SimpleSelectionSort.cpp */; };
 		F1D86FF81D70A38A0091E2F4 /* StraightInsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FF21D70A38A0091E2F4 /* StraightInsertionSort.cpp */; };
+		F1D86FFB1D70A3FF0091E2F4 /* PancakeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FFA1D70A3FF0091E2F4 /* PancakeSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		F1D86FF11D70A38A0091E2F4 /* SimpleSelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleSelectionSort.h; path = Sort/SimpleSelectionSort.h; sourceTree = "<group>"; };
 		F1D86FF21D70A38A0091E2F4 /* StraightInsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StraightInsertionSort.cpp; path = Sort/StraightInsertionSort.cpp; sourceTree = "<group>"; };
 		F1D86FF31D70A38A0091E2F4 /* StraightInsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StraightInsertionSort.h; path = Sort/StraightInsertionSort.h; sourceTree = "<group>"; };
+		F1D86FF91D70A3EE0091E2F4 /* PancakeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PancakeSort.h; path = Sort/PancakeSort.h; sourceTree = "<group>"; };
+		F1D86FFA1D70A3FF0091E2F4 /* PancakeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PancakeSort.cpp; path = Sort/PancakeSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				F1D86FF11D70A38A0091E2F4 /* SimpleSelectionSort.h */,
 				F1D86FF21D70A38A0091E2F4 /* StraightInsertionSort.cpp */,
 				F1D86FF31D70A38A0091E2F4 /* StraightInsertionSort.h */,
+				F1D86FF91D70A3EE0091E2F4 /* PancakeSort.h */,
+				F1D86FFA1D70A3FF0091E2F4 /* PancakeSort.cpp */,
 			);
 			name = Sort;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				F1D86FF71D70A38A0091E2F4 /* SimpleSelectionSort.cpp in Sources */,
 				F1D86FE61D70A2250091E2F4 /* Solution.cpp in Sources */,
 				F1D86FF41D70A38A0091E2F4 /* HeapSort.cpp in Sources */,
+				F1D86FFB1D70A3FF0091E2F4 /* PancakeSort.cpp in Sources */,
 				F1834D5C1CBF4BED00BD3BA2 /* main.cpp in Sources */,
 				F1D86FF81D70A38A0091E2F4 /* StraightInsertionSort.cpp in Sources */,
 				F1D86FF51D70A38A0091E2F4 /* QuickSort.cpp in Sources */,

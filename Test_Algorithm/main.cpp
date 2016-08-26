@@ -13,9 +13,21 @@
 #include "QuickSort.h"
 #include <string>
 #include "HeapSort.h"
+#include "PancakeSort.h"
+#include <vector>
+
 
 
 int main(int argc, const char * argv[]) {
+    std::vector<int> V = {2, 9, 1, 3, 7, 6, 4, 8, 5};
+    pancake_sort(V);
+    
+    for(auto i : V)
+    {
+        printf("%d ", i);
+    }
+    
+#ifdef HEAP
     int a[] = {2, 4, 3, 6, 5, 8, 7};
     int length = sizeof(a) / sizeof(a[0]);
     CreateBiggestHeap(a, length);
@@ -31,6 +43,7 @@ int main(int argc, const char * argv[]) {
     {
         printf("%d ", a[i]);
     }
+#endif
     
 #if 0
     int v[] = {2, 4, 3, 1};
