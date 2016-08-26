@@ -11,8 +11,27 @@
 #include <iostream>
 #include "ShellSort.h"
 #include "Sample1.h"
+#include "QuickSort.h"
+#include <string>
+#include "HeapSort.h"
+
 
 int main(int argc, const char * argv[]) {
+    int a[] = {2, 4, 3, 6, 5, 8, 7};
+    int length = sizeof(a) / sizeof(a[0]);
+    CreateBiggestHeap(a, length);
+    for(int i = length - 1; i >= 0; i--)
+    {
+        int tmp = a[i];
+        a[i] = a[0];
+        a[0] = tmp;
+        CreateBiggestHeap(a, i);
+    }
+    
+    for(int i = 0; i < length; i++)
+    {
+        printf("%d ", a[i]);
+    }
     
 #if 0
     int v[] = {2, 4, 3, 1};
