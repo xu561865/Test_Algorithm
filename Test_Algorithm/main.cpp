@@ -10,7 +10,6 @@
 
 #include <iostream>
 #include "ShellSort.h"
-#include "Sample1.h"
 #include "QuickSort.h"
 #include <string>
 #include "HeapSort.h"
@@ -44,17 +43,6 @@ int main(int argc, const char * argv[]) {
     sSort.sort(v, 4);
     
 #endif
-    
-    
-    bool ret = find_string("abcdef", "acd");
-    if(ret)
-    {
-        printf("find it\n");
-    }
-    else
-    {
-        printf("not find\n");
-    }
     
     
     return 0;
