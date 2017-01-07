@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1700F1D1E212B6B00C6E410 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1700F1C1E212B6B00C6E410 /* BubbleSort.cpp */; };
 		F1834D5C1CBF4BED00BD3BA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D5B1CBF4BED00BD3BA2 /* main.cpp */; };
 		F1D86FE61D70A2250091E2F4 /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FE41D70A2250091E2F4 /* Solution.cpp */; };
 		F1D86FF41D70A38A0091E2F4 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FEA1D70A38A0091E2F4 /* HeapSort.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F1700F1C1E212B6B00C6E410 /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BubbleSort.cpp; path = Sort/BubbleSort.cpp; sourceTree = "<group>"; };
+		F1700F1E1E212B7F00C6E410 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BubbleSort.h; path = Sort/BubbleSort.h; sourceTree = "<group>"; };
 		F1834D581CBF4BED00BD3BA2 /* Test_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1834D5B1CBF4BED00BD3BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F1D86FE41D70A2250091E2F4 /* Solution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Solution.cpp; path = Solution/Solution.cpp; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				F1D86FF31D70A38A0091E2F4 /* StraightInsertionSort.h */,
 				F1D86FF91D70A3EE0091E2F4 /* PancakeSort.h */,
 				F1D86FFA1D70A3FF0091E2F4 /* PancakeSort.cpp */,
+				F1700F1C1E212B6B00C6E410 /* BubbleSort.cpp */,
+				F1700F1E1E212B7F00C6E410 /* BubbleSort.h */,
 			);
 			name = Sort;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				F1834D5C1CBF4BED00BD3BA2 /* main.cpp in Sources */,
 				F1D86FF81D70A38A0091E2F4 /* StraightInsertionSort.cpp in Sources */,
 				F1D86FF51D70A38A0091E2F4 /* QuickSort.cpp in Sources */,
+				F1700F1D1E212B6B00C6E410 /* BubbleSort.cpp in Sources */,
 				F1D86FF61D70A38A0091E2F4 /* ShellSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

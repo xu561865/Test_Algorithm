@@ -14,18 +14,17 @@
 #include <string>
 #include "HeapSort.h"
 #include "PancakeSort.h"
+#include "BubbleSort.h"
 #include <vector>
 
 
 
 int main(int argc, const char * argv[]) {
-    std::vector<int> V = {2, 9, 1, 3, 7, 6, 4, 8, 5};
-    pancake_sort(V);
+    int a[] = {2, 4, 3, 6, 5, 8, 7};
     
-    for(auto i : V)
-    {
-        printf("%d ", i);
-    }
+    BubbleSort bsort;
+    bsort.sort(a, 7);
+    bsort.print(a, 7);
     
 #ifdef HEAP
     int a[] = {2, 4, 3, 6, 5, 8, 7};
