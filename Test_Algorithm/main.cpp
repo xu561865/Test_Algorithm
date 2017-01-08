@@ -15,6 +15,7 @@
 #include "HeapSort.h"
 #include "PancakeSort.h"
 #include "BubbleSort.h"
+#include "QuickSort.h"
 #include <vector>
 
 
@@ -22,9 +23,8 @@
 int main(int argc, const char * argv[]) {
     int a[] = {2, 4, 3, 6, 5, 8, 7};
     
-    BubbleSort bsort;
-    bsort.sort(a, 7);
-    bsort.print(a, 7);
+    QuickSort sort;
+    sort.sort(a, 0, 6);
     
 #ifdef HEAP
     int a[] = {2, 4, 3, 6, 5, 8, 7};

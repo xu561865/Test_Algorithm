@@ -9,6 +9,14 @@
 #ifndef QuickSort_h
 #define QuickSort_h
 
-void Qsort(int a[], int low, int high);
+class QuickSort
+{
+public:
+    QuickSort(){}
+    ~QuickSort(){}
+    
+    void sort(int a[], int low, int high);
+};
+
 
 #endif /* QuickSort_h */
