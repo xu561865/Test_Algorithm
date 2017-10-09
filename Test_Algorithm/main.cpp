@@ -16,15 +16,19 @@
 #include "PancakeSort.h"
 #include "BubbleSort.h"
 #include "QuickSort.h"
+#include "MergeSort.h"
+#include "RadixSort.h"
+#include "BST.h"
 #include <vector>
 
-
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    int a[] = {2, 4, 3, 6, 5, 8, 7};
+    int n[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    BST b;
+    b.middleSearch(b.generateByVector(n, 0, 9));
     
-    QuickSort sort;
-    sort.sort(a, 0, 6);
+    return 0;
     
 #ifdef HEAP
     int a[] = {2, 4, 3, 6, 5, 8, 7};
