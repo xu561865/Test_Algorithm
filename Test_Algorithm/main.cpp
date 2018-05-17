@@ -29,11 +29,13 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
 //    int n[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    
+
+#define TTLL
+#ifdef TTLL
     int n[7] = {4, 6, 8, 10, 12, 14, 16};
     BST b;
-    
-#ifdef TreeToLinkedList
-    TreeToLinkedList::transition(b.generateByVector(n, 0, 6));
+    Node * list = TreeToLinkedList::transition(b.generateByVector(n, 0, 6));
 #endif
     
     return 0;

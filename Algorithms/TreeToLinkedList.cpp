@@ -11,34 +11,36 @@
 
 void TreeToLinkedList::helper(Node *& head, Node *& tail, Node *root)
 {
-    Node *lt, *rh;
-    lt = rh = NULL;
+    Node * lt = NULL;
+    Node * rh = NULL;
+    
     if (root == NULL)
     {
-        head = NULL, tail = NULL;
         return;
     }
+    
     helper(head, lt, root->pLeft);
     helper(rh, tail, root->pRight);
-    if (lt!=NULL)
+    
+    if (lt == NULL)
+    {
+        head = root;
+    }
+    else
     {
         lt->pRight = root;
         root->pLeft = lt;
     }
-    else
-    {
-        head = root;
-    }
-    if (rh!=NULL)
-    {
-        root->pRight=rh;
-        rh->pLeft = root;
-    }
-    else
+    
+    if (rh == NULL)
     {
         tail = root;
     }
-
+    else
+    {
+        root->pRight = rh;
+        rh->pLeft = root;
+    }
 }
 
 /**
@@ -47,7 +49,8 @@ void TreeToLinkedList::helper(Node *& head, Node *& tail, Node *root)
  */
 Node * TreeToLinkedList::transition(Node * root)
 {
-    Node * head, * tail;
+    Node * head = NULL;
+    Node * tail = NULL;
     helper(head, tail, root);
     return head;
 }
