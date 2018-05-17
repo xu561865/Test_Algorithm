@@ -19,16 +19,22 @@
 #include "MergeSort.h"
 #include "RadixSort.h"
 #include "BST.h"
+#include "TreeToLinkedList.hpp"
 #include <vector>
 
 // test
 
 using namespace std;
 
+
 int main(int argc, const char * argv[]) {
-    int n[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//    int n[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int n[7] = {4, 6, 8, 10, 12, 14, 16};
     BST b;
-    b.middleSearch(b.generateByVector(n, 0, 9));
+    
+#ifdef TreeToLinkedList
+    TreeToLinkedList::transition(b.generateByVector(n, 0, 6));
+#endif
     
     return 0;
     

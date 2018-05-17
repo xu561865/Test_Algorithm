@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F13BC79F1E6D808200422ECC /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F13BC79E1E6D808200422ECC /* BST.cpp */; };
 		F16C003A1E233F590034AAF8 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F16C00391E233F590034AAF8 /* MergeSort.cpp */; };
 		F1700F1D1E212B6B00C6E410 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1700F1C1E212B6B00C6E410 /* BubbleSort.cpp */; };
 		F1834D5C1CBF4BED00BD3BA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1834D5B1CBF4BED00BD3BA2 /* main.cpp */; };
+		F1CD06B920AD6506007804E4 /* TreeToLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CD06B720AD6506007804E4 /* TreeToLinkedList.cpp */; };
+		F1CD06BC20AD673B007804E4 /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CD06BA20AD673B007804E4 /* BST.cpp */; };
 		F1D86FE61D70A2250091E2F4 /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FE41D70A2250091E2F4 /* Solution.cpp */; };
 		F1D86FF41D70A38A0091E2F4 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FEA1D70A38A0091E2F4 /* HeapSort.cpp */; };
 		F1D86FF51D70A38A0091E2F4 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D86FEC1D70A38A0091E2F4 /* QuickSort.cpp */; };
@@ -34,14 +35,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F13BC79D1E6D807300422ECC /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BST.h; path = DataStructure/BST.h; sourceTree = "<group>"; };
-		F13BC79E1E6D808200422ECC /* BST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BST.cpp; path = BFS/BST.cpp; sourceTree = "<group>"; };
 		F16C00381E233F360034AAF8 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MergeSort.h; path = Sort/MergeSort.h; sourceTree = "<group>"; };
 		F16C00391E233F590034AAF8 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergeSort.cpp; path = Sort/MergeSort.cpp; sourceTree = "<group>"; };
 		F1700F1C1E212B6B00C6E410 /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BubbleSort.cpp; path = Sort/BubbleSort.cpp; sourceTree = "<group>"; };
 		F1700F1E1E212B7F00C6E410 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BubbleSort.h; path = Sort/BubbleSort.h; sourceTree = "<group>"; };
 		F1834D581CBF4BED00BD3BA2 /* Test_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1834D5B1CBF4BED00BD3BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F1CD06B720AD6506007804E4 /* TreeToLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TreeToLinkedList.cpp; path = Algorithms/TreeToLinkedList.cpp; sourceTree = "<group>"; };
+		F1CD06B820AD6506007804E4 /* TreeToLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TreeToLinkedList.hpp; path = Algorithms/TreeToLinkedList.hpp; sourceTree = "<group>"; };
+		F1CD06BA20AD673B007804E4 /* BST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BST.cpp; path = BaseDS/BST.cpp; sourceTree = "<group>"; };
+		F1CD06BB20AD673B007804E4 /* BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BST.h; path = BaseDS/BST.h; sourceTree = "<group>"; };
 		F1D86FE41D70A2250091E2F4 /* Solution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Solution.cpp; path = Solution/Solution.cpp; sourceTree = "<group>"; };
 		F1D86FE51D70A2250091E2F4 /* Solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Solution.h; path = Solution/Solution.h; sourceTree = "<group>"; };
 		F1D86FEA1D70A38A0091E2F4 /* HeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HeapSort.cpp; path = Sort/HeapSort.cpp; sourceTree = "<group>"; };
@@ -71,19 +74,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F13BC79C1E6D804700422ECC /* DataStructure */ = {
+		F13BC79C1E6D804700422ECC /* BaseDS */ = {
 			isa = PBXGroup;
 			children = (
-				F13BC79D1E6D807300422ECC /* BST.h */,
-				F13BC79E1E6D808200422ECC /* BST.cpp */,
+				F1CD06BA20AD673B007804E4 /* BST.cpp */,
+				F1CD06BB20AD673B007804E4 /* BST.h */,
 			);
-			name = DataStructure;
+			name = BaseDS;
 			sourceTree = "<group>";
 		};
 		F1834D4F1CBF4BED00BD3BA2 = {
 			isa = PBXGroup;
 			children = (
-				F13BC79C1E6D804700422ECC /* DataStructure */,
+				F1CD06B620AD647D007804E4 /* Algorithms */,
+				F13BC79C1E6D804700422ECC /* BaseDS */,
 				F1D86FE31D70A1EF0091E2F4 /* Solution */,
 				F1834D621CBF4DC500BD3BA2 /* Sort */,
 				F1834D5A1CBF4BED00BD3BA2 /* Test_Algorithm */,
@@ -130,6 +134,15 @@
 				F1F07BC01E24EC8500CCE733 /* RadixSort.cpp */,
 			);
 			name = Sort;
+			sourceTree = "<group>";
+		};
+		F1CD06B620AD647D007804E4 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD06B720AD6506007804E4 /* TreeToLinkedList.cpp */,
+				F1CD06B820AD6506007804E4 /* TreeToLinkedList.hpp */,
+			);
+			name = Algorithms;
 			sourceTree = "<group>";
 		};
 		F1D86FE31D70A1EF0091E2F4 /* Solution */ = {
@@ -197,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CD06BC20AD673B007804E4 /* BST.cpp in Sources */,
 				F1D86FF71D70A38A0091E2F4 /* SimpleSelectionSort.cpp in Sources */,
 				F1D86FE61D70A2250091E2F4 /* Solution.cpp in Sources */,
 				F1D86FF41D70A38A0091E2F4 /* HeapSort.cpp in Sources */,
@@ -204,9 +218,9 @@
 				F1834D5C1CBF4BED00BD3BA2 /* main.cpp in Sources */,
 				F1D86FF81D70A38A0091E2F4 /* StraightInsertionSort.cpp in Sources */,
 				F1D86FF51D70A38A0091E2F4 /* QuickSort.cpp in Sources */,
+				F1CD06B920AD6506007804E4 /* TreeToLinkedList.cpp in Sources */,
 				F1700F1D1E212B6B00C6E410 /* BubbleSort.cpp in Sources */,
 				F1F07BC11E24EC8500CCE733 /* RadixSort.cpp in Sources */,
-				F13BC79F1E6D808200422ECC /* BST.cpp in Sources */,
 				F16C003A1E233F590034AAF8 /* MergeSort.cpp in Sources */,
 				F1D86FF61D70A38A0091E2F4 /* ShellSort.cpp in Sources */,
 			);
