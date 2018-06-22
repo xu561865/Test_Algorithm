@@ -9,16 +9,16 @@
 #ifndef BST_h
 #define BST_h
 
-struct Node
+struct TreeNode
 {
-    Node(int v)
+    TreeNode(int v)
     {
         value = v;
     }
     
     int value;
-    Node * pLeft;
-    Node * pRight;
+    TreeNode * pLeft;
+    TreeNode * pRight;
 };
 
 class BST
@@ -27,14 +27,14 @@ public:
     BST();
     ~BST();
     
-    void printBST(Node *);
-    void freeNode(Node *);
+    void printBST(TreeNode *);
+    void freeTreeNode(TreeNode *);
     
-    Node * generateByVector(int [], int start, int end);
-    Node * generateToSortedVector(Node *);
-    void middleSearch(Node *);
+    TreeNode * generateByVector(int [], int start, int end);
+    TreeNode * generateToSortedVector(TreeNode *);
+    void middleSearch(TreeNode *);
 private:
-    Node * m_node;
+    TreeNode * m_node;
 };
 
 #endif /* BST_h */

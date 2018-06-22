@@ -16,21 +16,21 @@ BST::BST()
 
 BST::~BST()
 {
-    freeNode(m_node);
+    freeTreeNode(m_node);
 }
 
-void BST::freeNode(Node * node)
+void BST::freeTreeNode(TreeNode * node)
 {
     if(node)
     {
         delete node;
         
-        freeNode(node->pLeft);
-        freeNode(node->pRight);
+        freeTreeNode(node->pLeft);
+        freeTreeNode(node->pRight);
     }
 }
 
-void BST::printBST(Node * node)
+void BST::printBST(TreeNode * node)
 {
     if(node)
     {
@@ -41,13 +41,13 @@ void BST::printBST(Node * node)
     }
 }
 
-Node * BST::generateByVector(int n[], int start, int end)
+TreeNode * BST::generateByVector(int n[], int start, int end)
 {
     if(start > end) return nullptr;
     
     int mid = start + (end - start) / 2;
     
-    Node * node = new Node(n[mid]);
+    TreeNode * node = new TreeNode(n[mid]);
     node->pLeft = generateByVector(n, start, mid - 1);
     node->pRight = generateByVector(n, mid + 1, end);
     
@@ -56,14 +56,14 @@ Node * BST::generateByVector(int n[], int start, int end)
     return node;
 }
 
-Node * BST::generateToSortedVector(Node * bstNode)
+TreeNode * BST::generateToSortedVector(TreeNode * bstTreeNode)
 {
     return nullptr;
 }
 
-void helper(Node *& head, Node *& tail, Node *root)
+void helper(TreeNode *& head, TreeNode *& tail, TreeNode *root)
 {
-    Node *lTail, *rHead;
+    TreeNode *lTail, *rHead;
     if (root == NULL)
     {
         head = NULL, tail = NULL;
@@ -94,7 +94,7 @@ void helper(Node *& head, Node *& tail, Node *root)
     }
 }
 
-void BST::middleSearch(Node * node)
+void BST::middleSearch(TreeNode * node)
 {
     if(!node)
     {

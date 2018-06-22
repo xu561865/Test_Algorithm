@@ -9,10 +9,10 @@
 #include "TreeToLinkedList.hpp"
 
 
-void TreeToLinkedList::helper(Node *& head, Node *& tail, Node *root)
+void TreeToLinkedList::helper(TreeNode *& head, TreeNode *& tail, TreeNode *root)
 {
-    Node * lt = NULL;
-    Node * rh = NULL;
+    TreeNode * lt = NULL;
+    TreeNode * rh = NULL;
     
     if (root == NULL)
     {
@@ -47,10 +47,10 @@ void TreeToLinkedList::helper(Node *& head, Node *& tail, Node *root)
  * @param root The root node of the tree
  * @return The head node of the converted list.
  */
-Node * TreeToLinkedList::transition(Node * root)
+TreeNode * TreeToLinkedList::transition(TreeNode * root)
 {
-    Node * head = NULL;
-    Node * tail = NULL;
+    TreeNode * head = NULL;
+    TreeNode * tail = NULL;
     helper(head, tail, root);
     return head;
 }

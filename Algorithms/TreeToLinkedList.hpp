@@ -27,10 +27,10 @@
 class TreeToLinkedList
 {
 public:
-    static Node * transition(Node * root);
+    static TreeNode * transition(TreeNode * root);
     
 private:
-    static void helper(Node *& head, Node *& tail, Node *root);
+    static void helper(TreeNode *& head, TreeNode *& tail, TreeNode *root);
 };
 
 #endif /* TreeToLinkedList_hpp */

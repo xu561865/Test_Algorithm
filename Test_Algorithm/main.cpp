@@ -20,6 +20,7 @@
 #include "RadixSort.h"
 #include "BST.h"
 #include "TreeToLinkedList.hpp"
+#include "MaxSubArray.h"
 #include <vector>
 
 // test
@@ -27,15 +28,32 @@
 using namespace std;
 
 
+TreeNode * reverseNonrecurisve(TreeNode * head)
+{
+    if (head == NULL) return head;
+    TreeNode * p = head;
+    TreeNode * previous = NULL;
+    while (p->pRight != NULL)
+    {
+        p->pRight = previous;
+        previous = p;
+        p = p->pRight;
+    }
+    p->pRight = previous;
+    return p;
+}
+
 int main(int argc, const char * argv[]) {
 //    int n[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     
+    int n[7] = {4, 6, 8, 10, 12, 14, 16};
+    BST b;
+    reverseNonrecurisve(b.generateByVector(n, 0, 6));
 
-#define TTLL
 #ifdef TTLL
     int n[7] = {4, 6, 8, 10, 12, 14, 16};
     BST b;
-    Node * list = TreeToLinkedList::transition(b.generateByVector(n, 0, 6));
+    TreeNode * list = TreeToLinkedList::transition(b.generateByVector(n, 0, 6));
 #endif
     
     return 0;

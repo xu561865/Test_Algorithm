@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F106AC2320B7AF0500C35955 /* Algorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F106AC2220B7AF0500C35955 /* Algorithms.cpp */; };
 		F114767620B56E36009A8083 /* MaxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F114767520B56E36009A8083 /* MaxSubArray.cpp */; };
 		F16C003A1E233F590034AAF8 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F16C00391E233F590034AAF8 /* MergeSort.cpp */; };
 		F1700F1D1E212B6B00C6E410 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1700F1C1E212B6B00C6E410 /* BubbleSort.cpp */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F106AC2120B7AEEA00C35955 /* Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Algorithms.h; path = Algorithms/Algorithms.h; sourceTree = "<group>"; };
+		F106AC2220B7AF0500C35955 /* Algorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Algorithms.cpp; path = Algorithms/Algorithms.cpp; sourceTree = "<group>"; };
 		F114767520B56E36009A8083 /* MaxSubArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaxSubArray.cpp; path = Algorithms/MaxSubArray.cpp; sourceTree = "<group>"; };
 		F114767720B56EA6009A8083 /* MaxSubArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MaxSubArray.h; path = Algorithms/MaxSubArray.h; sourceTree = "<group>"; };
 		F16C00381E233F360034AAF8 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MergeSort.h; path = Sort/MergeSort.h; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				F1CD06B820AD6506007804E4 /* TreeToLinkedList.hpp */,
 				F114767520B56E36009A8083 /* MaxSubArray.cpp */,
 				F114767720B56EA6009A8083 /* MaxSubArray.h */,
+				F106AC2120B7AEEA00C35955 /* Algorithms.h */,
+				F106AC2220B7AF0500C35955 /* Algorithms.cpp */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				F1CD06BC20AD673B007804E4 /* BST.cpp in Sources */,
 				F1D86FF71D70A38A0091E2F4 /* SimpleSelectionSort.cpp in Sources */,
 				F1D86FE61D70A2250091E2F4 /* Solution.cpp in Sources */,
+				F106AC2320B7AF0500C35955 /* Algorithms.cpp in Sources */,
 				F1D86FF41D70A38A0091E2F4 /* HeapSort.cpp in Sources */,
 				F1D86FFB1D70A3FF0091E2F4 /* PancakeSort.cpp in Sources */,
 				F1834D5C1CBF4BED00BD3BA2 /* main.cpp in Sources */,
